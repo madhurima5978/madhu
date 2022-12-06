@@ -1,0 +1,148 @@
+
+body {
+  background-image: url('images/3.jpg'),linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bar{
+	width:10px;
+	
+}
+.bar svg{
+	position: absolute;
+	top:1px;
+	right: 363px;
+	background-color: yellow;
+	height: 28px;
+	width: 20px;
+	padding:4px;
+}
+.phone1,.comp,.c{
+	background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+	box-shadow: 2px 2px 5px;
+	transition: 0.5s;
+}	
+.phone1:hover,.c:hover{
+	transform: scale(1.1);
+	
+}
+.card-body{
+	display: inline-block;
+}
+.card-body p{
+	width: 50%;
+}
+.comp img{
+	padding:0;
+	margin:0;
+}
+.cartSym{
+	text-decoration: none;
+	color: black;
+}
+.cardDet{
+	width: 50%;
+	margin-left: 300px;
+	background-color: #a18cd1;
+	margin-top: 50px;
+	box-shadow: 2px 2px 5px black;
+}
+.cardDet input{
+	margin-bottom: 10px;
+}
+.cardDet button{
+	margin-left: 300px;
+}
+.details{
+	width: 50%;
+	background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+	margin-left: 320px;
+}
+.details .nav-item{
+	height: 60px;
+}
+.form{
+	margin:100px;
+	margin-left:350px;
+	width:50%
+}
+.form{
+	background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+	margin-left:450px;
+	padding:30px;
+	width:30%;
+}
+.form-group input{
+	width:90%;
+}
+.head h1{
+	position: absolute;
+	color: white;
+	margin: 30px;
+	width: 30%;
+	margin-top: 100px;
+	text-shadow: 2px 2px 5px black;
+}
+.head img{
+	box-shadow:2px 2px 5px black;
+}
+.nav{
+	background-color:blue;
+}
+.nav a{
+	
+	color: white;
+	text-decoration:none;
+	padding: 20px;
+	transition: 0.5s;
+}
+.nav a:hover
+{
+    transform: scale(1.2);
+    
+    background-color:#12ABE1
+}
+h1{
+	text-align: center;
+}
+.row{
+	padding:20px;
+}
+.row p{
+	padding: 20px;
+}
+.cat p{
+	width:100%;
+}
+.cat .c{
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.cata .row .c{
+	margin:20px;
+	height: 600px;
+}
+.cata{
+	padding:100px;
+	padding-left: 200px;
+}
+.userSym{
+	padding-left: 40px;
+	text-decoration: none;
+	color: black;
+}
+.buy .cata .row{
+	display: none;
+}
+.pay{
+	padding: 30px;
+}
+.pmethod{
+	background-color: white;
+	width:50%;
+	margin-left: 320px;
+	padding-top: 20px;
+}
+.pmethod input{
+	margin-right: 10px;
+	margin-left: 10px;
+}
